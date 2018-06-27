@@ -12,6 +12,7 @@
 		68D3ACA320E368DD00BD52F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68D3ACA120E368DD00BD52F7 /* Main.storyboard */; };
 		68D3ACA520E368E100BD52F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68D3ACA420E368E100BD52F7 /* Assets.xcassets */; };
 		68D3ACA820E368E100BD52F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68D3ACA620E368E100BD52F7 /* LaunchScreen.storyboard */; };
+		CCC1E04920E3DF6F001692FE /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC1E04820E3DF6F001692FE /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		68D3ACA420E368E100BD52F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68D3ACA720E368E100BD52F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		68D3ACA920E368E100BD52F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCC1E04820E3DF6F001692FE /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				68D3AC9D20E368DD00BD52F7 /* AppDelegate.swift */,
 				68D3AC9F20E368DD00BD52F7 /* HomeViewController.swift */,
+				CCC1E04820E3DF6F001692FE /* SearchViewController.swift */,
 				68D3ACA120E368DD00BD52F7 /* Main.storyboard */,
 				68D3ACA420E368E100BD52F7 /* Assets.xcassets */,
 				68D3ACA620E368E100BD52F7 /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCC1E04920E3DF6F001692FE /* SearchViewController.swift in Sources */,
 				68D3ACA020E368DD00BD52F7 /* HomeViewController.swift in Sources */,
 				68D3AC9E20E368DD00BD52F7 /* AppDelegate.swift in Sources */,
 			);

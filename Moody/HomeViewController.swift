@@ -12,7 +12,7 @@ class HomeViewController: UIViewController {
     
     @IBOutlet weak var viewNowBtn: UIButton!
     @IBOutlet weak var searchBtn: UIButton!
-    
+    @IBOutlet weak var searchTextField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,7 +24,11 @@ class HomeViewController: UIViewController {
         
     }
     
-    @IBAction func searchBtnPressed(_ sender: UIButton) {
+    @IBAction func searchBtnPressed(_ sender: UIButton) {        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let searchVC = storyboard.instantiateViewController(withIdentifier: "SearchViewController") as! SearchViewController
+        searchVC.searchText = self.searchTextField.text!        
+        navigationController?.pushViewController(searchVC, animated: true)
     }
     
 }
