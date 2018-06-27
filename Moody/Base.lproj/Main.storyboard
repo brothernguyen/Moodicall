@@ -71,11 +71,11 @@
                                 <rect key="frame" x="0.0" y="449" width="414" height="50"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f3C-kI-zNC" userLabel="Search">
-                                        <rect key="frame" x="248" y="10" width="158" height="30"/>
+                                        <rect key="frame" x="254" y="10" width="150" height="30"/>
                                         <color key="backgroundColor" red="0.12941176469999999" green="0.42352941179999998" blue="0.2784313725" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
+                                            <constraint firstAttribute="width" constant="150" id="4hB-2B-S9X"/>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="JNf-ng-idy"/>
-                                            <constraint firstAttribute="width" constant="158" id="hLh-R3-p8r"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
                                         <state key="normal" title="Search">
@@ -86,13 +86,29 @@
                                             <action selector="viewNowBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ufj-qB-7ae"/>
                                         </connections>
                                     </button>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="  Search by name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SoD-RR-jl3">
+                                        <rect key="frame" x="8" y="10" width="150" height="30"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="150" id="WQw-2v-GuI"/>
+                                            <constraint firstAttribute="height" constant="30" id="l16-ll-9br"/>
+                                        </constraints>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
                                 </subviews>
                                 <color key="backgroundColor" red="0.16862745100000001" green="0.60784313729999995" blue="0.3921568627" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstItem="SoD-RR-jl3" firstAttribute="leading" secondItem="b5T-kR-tR3" secondAttribute="leading" constant="8" id="GeW-Ql-vJB"/>
+                                    <constraint firstAttribute="bottom" secondItem="SoD-RR-jl3" secondAttribute="bottom" constant="10" id="Q5i-fe-KWA"/>
+                                    <constraint firstItem="f3C-kI-zNC" firstAttribute="top" secondItem="b5T-kR-tR3" secondAttribute="top" constant="10" id="ZkO-Vp-0fi"/>
                                     <constraint firstItem="f3C-kI-zNC" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="b5T-kR-tR3" secondAttribute="leadingMargin" id="azx-Aj-Z5v"/>
                                     <constraint firstItem="f3C-kI-zNC" firstAttribute="centerY" secondItem="b5T-kR-tR3" secondAttribute="centerY" id="dpx-U4-tBd"/>
+                                    <constraint firstAttribute="bottom" secondItem="f3C-kI-zNC" secondAttribute="bottom" constant="10" id="enC-hI-iYQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="f3C-kI-zNC" secondAttribute="trailing" constant="10" id="ess-1g-1vP"/>
+                                    <constraint firstItem="SoD-RR-jl3" firstAttribute="top" secondItem="b5T-kR-tR3" secondAttribute="top" constant="10" id="kD5-AR-Rex"/>
                                     <constraint firstAttribute="height" constant="50" id="m76-4l-hs8"/>
-                                    <constraint firstItem="f3C-kI-zNC" firstAttribute="trailing" secondItem="b5T-kR-tR3" secondAttribute="trailingMargin" id="tiT-O5-9Pn"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -121,7 +137,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="116" y="117.39130434782609"/>
+            <point key="canvasLocation" x="115.94202898550725" y="117.39130434782609"/>
         </scene>
     </scenes>
     <resources>
