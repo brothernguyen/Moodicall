@@ -27,7 +27,7 @@ class HomeViewController: UIViewController {
     @IBAction func searchBtnPressed(_ sender: UIButton) {        
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let searchVC = storyboard.instantiateViewController(withIdentifier: "SearchViewController") as! SearchViewController
-        searchVC.searchText = self.searchTextField.text!        
+        //searchVC.searchText = self.searchTextField.text!        
         navigationController?.pushViewController(searchVC, animated: true)
     }
     
