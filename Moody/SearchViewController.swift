@@ -20,7 +20,6 @@ class SearchViewController: UIViewController {
         //searchKeywordLbl.text = searchText
         searchTableView.dataSource = self
         searchTableView.delegate = self
-                
     }
 }
 
@@ -33,19 +32,10 @@ extension SearchViewController: UITableViewDelegate, UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "SearchCell", for: indexPath) as! SearchCell
         
         return cell
-    }
-    
-    
+    }   
 }
 
 class SearchCell: UITableViewCell {
-    @IBOutlet weak var activityStatus: UILabel!
-    @IBOutlet weak var activityDeviceOrModeName: UILabel!
-    @IBOutlet weak var activityAgent: UILabel!
-    @IBOutlet weak var activityTime: UILabel!
-    @IBOutlet weak var activityOwner: UILabel!
-    @IBOutlet weak var cameraImageView: UIImageView!
-    @IBOutlet weak var activityDeviceImgBackground: UIView!
-    @IBOutlet weak var activityDeviceImg: UIImageView!
+    
 }
 

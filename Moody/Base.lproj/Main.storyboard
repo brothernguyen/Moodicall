@@ -86,7 +86,7 @@
                                             <action selector="viewNowBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ufj-qB-7ae"/>
                                         </connections>
                                     </button>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="  Search by name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SoD-RR-jl3">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="  Search by name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SoD-RR-jl3">
                                         <rect key="frame" x="8" y="10" width="150" height="30"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -94,7 +94,6 @@
                                             <constraint firstAttribute="height" constant="30" id="l16-ll-9br"/>
                                         </constraints>
                                         <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                 </subviews>
