@@ -11,16 +11,17 @@ import UIKit
 class SearchViewController: UIViewController {
     
     @IBOutlet weak var searchKeywordLbl: UILabel!
-    var searchText = ""
     @IBOutlet weak var searchTableView: UITableView!
+    
+    var searchText = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
         //searchKeywordLbl.text = searchText
         searchTableView.dataSource = self
         searchTableView.delegate = self
+                
     }
-    
 }
 
 extension SearchViewController: UITableViewDelegate, UITableViewDataSource {

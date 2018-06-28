@@ -12,6 +12,7 @@
 		68D3ACA320E368DD00BD52F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68D3ACA120E368DD00BD52F7 /* Main.storyboard */; };
 		68D3ACA520E368E100BD52F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68D3ACA420E368E100BD52F7 /* Assets.xcassets */; };
 		68D3ACA820E368E100BD52F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68D3ACA620E368E100BD52F7 /* LaunchScreen.storyboard */; };
+		68F7D89A20E4DD98007F276A /* vanessa-perry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68F7D89920E4DD98007F276A /* vanessa-perry.jpg */; };
 		CCC1E04920E3DF6F001692FE /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC1E04820E3DF6F001692FE /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 		68D3ACA420E368E100BD52F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68D3ACA720E368E100BD52F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		68D3ACA920E368E100BD52F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68F7D89920E4DD98007F276A /* vanessa-perry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "vanessa-perry.jpg"; sourceTree = "<group>"; };
 		CCC1E04820E3DF6F001692FE /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,6 +58,7 @@
 		68D3AC9C20E368DD00BD52F7 /* Moody */ = {
 			isa = PBXGroup;
 			children = (
+				68F7D89820E4DD84007F276A /* Images */,
 				68D3AC9D20E368DD00BD52F7 /* AppDelegate.swift */,
 				68D3AC9F20E368DD00BD52F7 /* HomeViewController.swift */,
 				CCC1E04820E3DF6F001692FE /* SearchViewController.swift */,
@@ -65,6 +68,14 @@
 				68D3ACA920E368E100BD52F7 /* Info.plist */,
 			);
 			path = Moody;
+			sourceTree = "<group>";
+		};
+		68F7D89820E4DD84007F276A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				68F7D89920E4DD98007F276A /* vanessa-perry.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68F7D89A20E4DD98007F276A /* vanessa-perry.jpg in Resources */,
 				68D3ACA820E368E100BD52F7 /* LaunchScreen.storyboard in Resources */,
 				68D3ACA520E368E100BD52F7 /* Assets.xcassets in Resources */,
 				68D3ACA320E368DD00BD52F7 /* Main.storyboard in Resources */,
